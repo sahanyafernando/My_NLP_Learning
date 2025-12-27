@@ -1,4 +1,4 @@
-# 🌍 Final Project: Multilingual Public Response Analysis
+# 🌍 NLP Project: Multilingual Public Response Analysis
 ## 📌 Project Overview
 
 This project focuses on analyzing multilingual public responses to government policies 
