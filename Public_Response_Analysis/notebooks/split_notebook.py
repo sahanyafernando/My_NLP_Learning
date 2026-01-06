@@ -4,7 +4,7 @@ import pathlib
 
 
 BASE_DIR = pathlib.Path(__file__).resolve().parent
-SOURCE_NOTEBOOK = BASE_DIR / "Project_01_Public_Response_Analysis.ipynb"
+SOURCE_NOTEBOOK = BASE_DIR / "Public_Response_Analysis.ipynb"
 
 
 def load_notebook():
@@ -23,7 +23,7 @@ def build_save_cell():
     source = [
         "import pickle, pathlib\n",
         "# Update this path if your project lives elsewhere in Drive\n",
-        "artifacts_root = pathlib.Path(\"/content/drive/MyDrive/My_NLP_Learning/Project_01_Public_Responce_Analysis\")\n",
+        "artifacts_root = pathlib.Path(\"/content/drive/MyDrive/My_NLP_Learning/Public_Response_Analysis\")\n",
         "artifacts_dir = artifacts_root / \"artifacts\"\n",
         "artifacts_dir.mkdir(exist_ok=True)\n",
         "with open(artifacts_dir / \"preprocessing_outputs.pkl\", \"wb\") as f:\n",
@@ -53,7 +53,7 @@ def build_load_cell():
     source = [
         "import pickle, pathlib\n",
         "# Update this path if your project lives elsewhere in Drive\n",
-        "artifacts_root = pathlib.Path(\"/content/drive/MyDrive/My_NLP_Learning/Project_01_Public_Responce_Analysis\")\n",
+        "artifacts_root = pathlib.Path(\"/content/drive/MyDrive/My_NLP_Learning/Public_Response_Analysis\")\n",
         "artifacts_path = artifacts_root / \"artifacts/preprocessing_outputs.pkl\"\n",
         "if artifacts_path.exists():\n",
         "    with open(artifacts_path, \"rb\") as f:\n",

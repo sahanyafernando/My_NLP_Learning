@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+scipy
+nltk
+matplotlib
+networkx
+gensim
+tokenizers
+transformers
+sentencepiece
+summa
