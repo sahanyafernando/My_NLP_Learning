@@ -13,8 +13,9 @@ locally or directly in Google Colab.
   - 2_Normalization.ipynb – Unicode normalization and text standardization
   - 3_RuleBasedStemmingAndPorterStemming.ipynb – Rule-based and Porter stemming
   - 4_HandlingNoisyDataAndProcessing.ipynb – Cleaning noisy and real-world text
-  - 5_TextClassification.ipynb – Text classification fundamentals
+  - 5_TextClassification.ipynb – Text classification fundamentals (TF-IDF approach)
   - 6_ConstituencyAndDependencyParsing.ipynb – Syntactic parsing techniques
+  - 7_TextClassificationWithTransformers.ipynb – Text classification using Sentence Transformers (transformer-based embeddings)
 
 📂 Datasets
   - faq_dataset.csv
